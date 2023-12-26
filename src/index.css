@@ -1,0 +1,458 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------OLD CSS-------------------------------- */
+
+
+/* home page css */
+html,body,#wrapper {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+#description{
+  margin: 1rem 0px auto;
+}
+
+#stock-data{
+  font-size: 0.8rem;
+}
+
+.pink{
+  border: 1px solid #e9ecef;
+}
+
+.select-at-home {
+  margin-bottom: 1rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+.price{
+  color: #B12704!important;
+}
+
+.price-label{
+  color: #555!important;
+  font-size: 13px;
+}
+
+.stock-label{
+  color: #007600;
+  font-size: 17px;
+}
+
+.price-para{
+  margin-bottom: 0.7rem;
+}
+
+.image{
+  padding: 0.5rem;
+  max-width: 450px;
+  margin: auto auto;
+}
+
+.add-to-cart-btn{
+  margin: 0px 2rem;
+}
+
+.nav-border{
+  border-right: 1px solid gray;
+  height: 100%;
+}
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+#sidebar-wrapper {
+  color: white;
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle{
+  margin-right: 1em;
+}
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    padding-top: 1em;
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+.add-button{
+  margin-top: 20px;
+  float: right;
+  padding: 0.4em 3em;
+}
+
+.float-right{
+  float: right;
+}
+
+.add-heading{
+  text-align:center;
+  margin: 2em 0em;
+  color: white;
+  padding: 0.3em;
+  border-radius: 0.2em;
+}
+
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1440px;
+  }
+}
+
+/* CSS for add plywood Products */
+
+#addProductsForm{
+  max-width: 500px;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 0.75em;
+  border: 1px solid grey;
+}
+
+.cart-input-width{
+  width: 70px;
+}
+
+.form-control:focus {
+  border-color: black;
+  border: 2px solid;
+  box-shadow: none;
+}
+
+.floatin-plus{
+  position: fixed;
+  bottom: 43px;
+  right: 64px;
+}
+
+.fab {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #666;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.card-header{
+  padding: 0.75rem 1.25rem;
+}
+
+.login-form{
+  margin-top: 10%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.change-pwd-form{
+  margin-top: 5%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.search-label{
+  /* border: 1px solid #007600; */
+  width: 150px;
+  margin-right: 1em;
+  font-size: 1.3em;
+}
+.search-input{
+  /* border: 1px solid #007600; */
+  margin-right: 1em;
+  min-width: 300px;
+  max-width: 770px;
+  flex:1
+}
+.search-button{
+  /* border: 1px solid #007600; */
+  width: 108px;
+}
+@media(max-width:460px){
+  .search-button{
+    /* border: 1px solid #007600; */
+    margin-top: 1em;
+  }
+}
+@media(min-width:460px){
+  .search-area{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    /* border: 1px solid #007600; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.datalist-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.border{
+  border: 1px solid #007600;
+}
+
+.highlight-text{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#total-credit{
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.lead{
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.product-head{
+  margin: 10px;
+  font-size: xx-large;
+  font-weight:100;
+}
+.product-form-input{
+  margin-bottom: 5px;
+}
+
+.product-form-btn{
+  margin-top: 15px;
+  padding: 4px 50px;
+}
+.product-add-button{
+  margin: auto;
+  max-width: 180px;
+}
+.card-heading{
+  font-size: 2.5em;
+  margin-bottom: 0px;
+}
+.custom-select:focus {
+  border-color: hsl(0, 0%, 0%);
+  border-width: 2px;
+  box-shadow: none;
+}
+
+.crt {
+  color: #007600;
+}
+
+.dbt {
+  color: blue;
+}
+
+.mw-750{
+  max-width: 750px;
+  min-width: 750px;
+}
+
+.mw-500{
+  max-width: 500px;
+  min-width: 500px;
+}
+
+.mw-300{
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.mw-250{
+  max-width: 250px;
+  min-width: 250px;
+}
+
+.red .active a,
+.red .active a:hover {
+    background-color: red;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+  background-color: red;
+}
+
+.nav-pills .red .nav-link {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: red;
+}
+
+.profile-pic {
+	position: relative;
+	display: inline-block;
+}
+
+.profile-pic:hover .edit {
+	display: block;
+}
+
+.edit {
+	padding-top: 7px;	
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+.edit>input {
+  display: none;
+}
+
+.edit>label>img{
+  cursor: pointer;
+  width: 30px;
+}
+
+@media screen and (min-width: 720px) {
+  .cart-product-name {
+    border-bottom: 1px solid #dee2e6!important
+  }
+}
+
+.btn-sm{
+  padding: .0rem .3rem;
+}
+
+
+.formWrap{
+  position: relative;
+  padding: 10px 2px;
+}
+
+.spinner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.displayNone{
+  display: none;
+}
+
+
+/* ----------------------------------OLD CSS-------------------------------- */
+
+
+.btn-block {
+  margin-top: 0.5rem;
+}
+
+.btn-block:hover{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+
+/* --------------------------------CSS for error page------------------------- */
+
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}

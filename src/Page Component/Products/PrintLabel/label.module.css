@@ -1,0 +1,21 @@
+
+parent iframe {
+  width:100%;
+  height:740px;
+}
+
+
+
+@media screen and (min-width:768px) {
+  .parent {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .parent iframe {
+    width:100%;
+    max-width:800px;
+    height:880px;
+  }
+}

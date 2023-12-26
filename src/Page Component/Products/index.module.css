@@ -1,0 +1,9 @@
+.filterItem *{
+  margin: 7px;
+}
+
+
+.selectedItem{
+  background-color: rgb(92, 205, 199);
+  border: 1.5px solid rgb(18, 63, 63);
+}

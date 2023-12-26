@@ -19,7 +19,7 @@ function CheckoutForPurchase() {
     process.env.REACT_APP_NODE_ENV+"/checkOutPurchase?" +
       new URLSearchParams({cartNo:cartNo});
     axios.get(url).then((res) => {
-      console.log(res.data);
+      // console.log(res.data);
       setCart(res.data.cart);
       setSummery(res.data.summery);
       setDistributors(res.data.distributors);
@@ -139,13 +139,13 @@ export const action = async ({request, params})=>{
   })
   const ret = await res.json();
   console.log(ret);
-  // if (ret.done) {
-  //   alert("Updated...")
-  //   return null;
-  // }else{
-  //   alert(ret.msg)
-    return null;
-  // }
+
+  if (ret[0][0].id) {
+    alert("Purchase Success...")
+    return redirect('/purchase/'+ret[0][0].id)
+  }else{
+    alert("Error Occured please contact admin..")
+    return redirect('/')
+  }
   // return(ret);
-  // return redirect('/')
 }

@@ -19,7 +19,7 @@ export default function Category() {
   };
   return (
     <div className="container">
-      <div className="add-heading bg-primary">
+      <div className="add-heading bg-dark">
         <h3 >Edit {name} Category</h3>
       </div>
       {/* {no_of_specs} */}
@@ -72,8 +72,10 @@ export default function Category() {
 
         {/* <SpecField  /> */}
 
-        <Link to='labelEdit' className='btn btn-dark btn-sm add-button'>Edit Lable</Link>
-        <a className="btn btn-danger btn-sm add-button mr-3 mb-3 text-white" role="button" onClick={del} >Delete</a>
+        <Link to='addNewProductBatche' className='btn btn-dark btn add-button'>Add Product Batche</Link>
+        <Link to='labelEdit' className='btn btn-dark btn add-button mr-3'>Edit Lable</Link>
+        <a className="btn btn-danger btn add-button mr-3 mb-3 text-white" role="button" onClick={del} >Delete</a>
+        <div style={{height:"100px"}}></div>
       </Form>
     </div>
   )

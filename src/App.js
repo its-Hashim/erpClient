@@ -31,6 +31,7 @@ import StockBookPrint from './Page Component/Products/StockBookPrint';
 import PurchaseDetails from './Page Component/PurchaseAccount/PurchaseDetails';
 import CheckoutForPurchase, {action as purchaseCheckoutAction} from './Page Component/Sales/Purchase/CheckoutForPurchase';
 import PrintPurchaseLabel from './Page Component/PurchaseAccount/PrintPurchaseLabel';
+import AddNewProductBatche from './Page Component/ProductCategory/AddNewProductBatche';
 
 function App() {
   const router = createBrowserRouter([
@@ -76,6 +77,7 @@ function App() {
 
               children:[
                 {index:true, loader:categoryLoader, element:<Category />},
+                {path:"addNewProductBatche", loader:categoryLoader, element:<AddNewProductBatche />},
                 {path:'labelEdit',action:labelAction, loader:labelLoader, element:<LabelEdit />}
               ]
               

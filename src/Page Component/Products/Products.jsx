@@ -164,7 +164,7 @@ export default function Products() {
         headerItems={headerItems}
         rowURL="/productItem/"
         filterItems={filterItems}
-        thData={["Name", "Category","Brand","Stock", "Min Stock","Max Stock","MRP","Unit"]}
+        thData={["Name", "Category","Brand","Stock", "Min Stock","Max Stock","MRP","Amount"]}
         trData={productList}
         dispatch={dispatch}
         pageNo={pageNo}
